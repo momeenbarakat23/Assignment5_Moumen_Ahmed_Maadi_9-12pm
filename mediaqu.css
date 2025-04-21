@@ -1,0 +1,118 @@
+@media (max-width:1280px){
+   .contener-cards{
+    flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+    }
+    .card:hover{
+        width: 45%;
+    }
+
+    .gallery{
+        height: 160.5rem;
+    }
+    .gallery-photos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: space-between;
+        align-items: self-start;
+        justify-content: center;
+        
+    }
+    .gallery-photos picture {
+        width:45%;
+    }
+    .pizza{
+        order: 2;
+    }
+    .burger{
+        order: 7;
+    }
+    .fried{
+        order: 3;
+    }
+    .kofta{
+        order: 1;
+    }
+    .pizza-slices{
+        order: 6;
+    }
+    .steak{
+        order: 7;
+    }
+    .contact{
+        justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    margin: 0;
+    }
+    .details .address , .email ,.opening-hours ,.phone{
+        width: 100%;
+    }
+    footer .layer .container{
+            flex-direction: column;
+    align-items: center;
+    }
+    .part-one ,.part-two, .part-three{
+        width: 100%;
+    }
+}
+@media (max-width:1024px){
+    .Home{
+        flex-direction: column-reverse ;
+        padding: 12.5rem 0;
+    }
+    .contener-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 80%;
+    }
+    .card:hover{
+        width: 90%;
+    }
+    .gallery{
+        height: 312.5rem;
+    }
+    .gallery-photos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: space-between;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .gallery-photos picture {
+        width:50%;
+    }
+    .contact{
+        justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    margin: 0;
+    }
+    .details .address , .email ,.opening-hours ,.phone{
+        width: 100%;
+    }
+    footer .layer .container{
+            flex-direction: column;
+    align-items: center;
+    }
+    .part-one ,.part-two, .part-three{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+     
+}
+@media (max-width:640px){
+    
+
+}
